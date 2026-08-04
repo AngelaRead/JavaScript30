@@ -51,3 +51,12 @@ kbd {
   font-size: 4rem;
   font-family: 'Bungee', sans-serif;
 }
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+  margin-top: 80px;
+  text-shadow: 0 0 .9rem black;
+  font-family: sans-serif;
+}
