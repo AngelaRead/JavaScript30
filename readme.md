@@ -6,7 +6,7 @@ My solutions to [Wes Bos's JavaScript 30 Day Challenge](https://JavaScript30.com
 
 ## Progress
 
-- [ ] Day 1 - JavaScript Drum Kit
+- [x] Day 1 - JavaScript Drum Kit - [Live Demo](https://angelaread.github.io/JavaScript30/01%20-%20JavaScript%20Drum%20Kit/) 
 - [ ] Day 2 - JS + CSS Clock
 - [ ] Day 3 - CSS Variables
 - [ ] Day 4 - Array Cardio Day 1
