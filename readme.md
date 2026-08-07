@@ -9,7 +9,7 @@ My solutions to [Wes Bos's JavaScript 30 Day Challenge](https://JavaScript30.com
 - [x] Day 1 - JavaScript Drum Kit - [Live Demo](https://angelaread.github.io/JavaScript30/01%20-%20JavaScript%20Drum%20Kit/) 
 - [x] Day 2 - JS and CSS Clock - [Live Demo](https://angelaread.github.io/JavaScript30/02%20-%20JS%20and%20CSS%20Clock/)
 - [x] Day 3 - CSS Variables - [Live Demo](https://angelaread.github.io/JavaScript30/03%20-%20CSS%20Variables/)
-- [ ] Day 4 - Array Cardio Day 1
+- [x] Day 4 - Array Cardio Day 1
 - [ ] Day 5 - Flex Panel Gallery
 - [ ] Day 6 - Type Ahead
 - [ ] Day 7 - Array Cardio Day 2
