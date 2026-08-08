@@ -10,7 +10,7 @@ My solutions to [Wes Bos's JavaScript 30 Day Challenge](https://JavaScript30.com
 - [x] Day 2 - JS and CSS Clock - [Live Demo](https://angelaread.github.io/JavaScript30/02%20-%20JS%20and%20CSS%20Clock/)
 - [x] Day 3 - CSS Variables - [Live Demo](https://angelaread.github.io/JavaScript30/03%20-%20CSS%20Variables/)
 - [x] Day 4 - Array Cardio Day 1
-- [ ] Day 5 - Flex Panel Gallery
+- [x] Day 5 - Flex Panel Gallery - [Live Demo](https://angelaread.github.io/JavaScript30/05%20-%20Flex%20Panel%20Gallery/)
 - [ ] Day 6 - Type Ahead
 - [ ] Day 7 - Array Cardio Day 2
 - [ ] Day 8 - Fun with HTML5 Canvas
