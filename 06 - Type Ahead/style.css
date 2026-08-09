@@ -16,7 +16,7 @@ input {
 }
 
 .search-form {
-  max-width: 400px;
+  max-width: 700px;
   margin: 50px auto;
 }
 
@@ -31,6 +31,18 @@ input.search {
   top: 10px;
   z-index: 2;
   border-radius: 5px;
+  font-size: 40px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.19);
+}
+
+input.search:hover {
+  border-color: hsl(47, 55%, 26%);
+  font-size: 40px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.19);
+}
+
+input.search:focus {
+  border-color: hsl(47, 55%, 26%);
   font-size: 40px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.19);
 }
