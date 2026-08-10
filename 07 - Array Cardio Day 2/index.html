@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Array Cardio 💪💪</title>
-  <link rel="icon" href="https://fav.farm/✅" />
+  <link rel="icon" href="https://fav.farm/🔥" />
 </head>
 <body>
   <p><em>Psst: have a look at the JavaScript Console</em> 💁</p>
@@ -25,6 +25,15 @@
       { text: 'Nice Nice Nice!', id: 542328 }
     ];
 
+    const buildings = [
+  { name: 'Fallingwater', year: 1939 },
+  { name: 'Guggenheim Bilbao', year: 1997 },
+  { name: 'Sydney Opera House', year: 1973 },
+  { name: 'Sagrada Familia', year: 1882 },
+  { name: 'Empire State Building', year: 1931 }
+];
+
+
     // Some and Every Checks
     // Array.prototype.some() // is at least one person 19?
     // const isAdult = people.some(function(person) {
@@ -34,27 +43,29 @@
     //   }
     // });
 
-    const isAdult = people.some(person => ((new Date()).getFullYear()) - person.year >= 19);
+    const isAdult = people.some(person => ((new Date()).
+    getFullYear()) - person.year >= 19);
 
     console.log({isAdult});
     // Array.prototype.every() // is everyone 19?
 
-    const allAdults = people.every(person => ((new Date()).getFullYear()) - person.year >= 19);
-    console.log({allAdults});
+    const allAdult = people.every(person => ((new Date()).
+    getFullYear()) - person.year >= 19);
+
+    console.log({allAdult});
 
     // Array.prototype.find()
     // Find is like filter, but instead returns just the one you are looking for
     // find the comment with the ID of 823423
 
-
     const comment = comments.find(comment => comment.id === 823423);
 
     console.log(comment);
-
     // Array.prototype.findIndex()
     // Find the comment with this ID
     // delete the comment with the ID of 823423
     const index = comments.findIndex(comment => comment.id === 823423);
+
     console.log(index);
 
     // comments.splice(index, 1);
@@ -64,6 +75,25 @@
       ...comments.slice(index + 1)
     ];
 
+    const oldComments = [
+      ...comments.slice(1, index),
+      ...comments.slice(index + 2)
+    ]
+
+    // Is at least one building over 100 years old?
+    const hasOldBuilding = buildings.some(building => 2026 - building.year >= 100);
+
+    console.log({hasOldBuilding});
+
+    // Is every building over 50 years old?
+    const allOld = buildings.every(building => 2026 - building.year >= 50);
+
+    console.log({allOld});
+
+    console.log(newComments);
+    console.log(comments);
+    console.log(oldComments);
+    
   </script>
 </body>
 </html>
