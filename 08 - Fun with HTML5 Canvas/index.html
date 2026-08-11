@@ -3,9 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <title>HTML5 Canvas</title>
-  <link rel="icon" href="https://fav.farm/✅" />
+  <link rel="icon" href="https://fav.farm/🔥" />
 </head>
 <body>
+  <h1>Draw on the canvas!</h1>
+  <button id="clear">Clear Canvas</button>
 <canvas id="draw" width="800" height="800"></canvas>
 <script>
 const canvas = document.querySelector('#draw');
@@ -16,16 +18,17 @@ ctx.strokeStyle = '#BADA55';
 ctx.lineJoin = 'round';
 ctx.lineCap = 'round';
 ctx.lineWidth = 100;
-// ctx.globalCompositeOperation = 'multiply';
+ctx.globalCompositeOperation = 'screen';
 
-let isDrawing = false;
+let isDrawing = false; 
 let lastX = 0;
 let lastY = 0;
-let hue = 0;
-let direction = true;
+let hue = 0; 
+let direction = true; 
+
 
 function draw(e) {
-  if (!isDrawing) return; // stop the fn from running when they are not moused down
+  if(!isDrawing) return; // stop the fn from running when they are not mouse down
   console.log(e);
   ctx.strokeStyle = `hsl(${hue}, 100%, 50%)`;
   ctx.beginPath();
@@ -40,16 +43,14 @@ function draw(e) {
   if (hue >= 360) {
     hue = 0;
   }
-  if (ctx.lineWidth >= 100 || ctx.lineWidth <= 1) {
+  if (ctx.lineWidth >= 100 || ctx.lineWidth <= 1){
     direction = !direction;
   }
-
-  if(direction) {
-    ctx.lineWidth++;
+  if(direction){
+  ctx.lineWidth++;
   } else {
     ctx.lineWidth--;
   }
-
 }
 
 canvas.addEventListener('mousedown', (e) => {
@@ -62,12 +63,50 @@ canvas.addEventListener('mousemove', draw);
 canvas.addEventListener('mouseup', () => isDrawing = false);
 canvas.addEventListener('mouseout', () => isDrawing = false);
 
-</script>
+document.querySelector('#clear').addEventListener('click', () => {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+});
 
+
+</script>
 <style>
   html, body {
     margin: 0;
+    background-color: black;
   }
+
+  h1 {
+  position: absolute;
+  text-align: center;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-family: sans-serif;
+  z-index: 10;
+  pointer-events: none;
+  background-color: black;
+  width: 400px;
+}
+
+#clear {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  z-index: 10;
+}
+
+#clear:hover {
+  background: black;
+  color: white;
+  transition: all 0.2s ease;
+}
 </style>
 
 </body>
