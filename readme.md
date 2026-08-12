@@ -13,7 +13,7 @@ My solutions to [Wes Bos's JavaScript 30 Day Challenge](https://JavaScript30.com
 - [x] Day 5 - Flex Panel Gallery - [Live Demo](https://angelaread.github.io/JavaScript30/05%20-%20Flex%20Panel%20Gallery/)
 - [x] Day 6 - Type Ahead - [Live Demo](https://angelaread.github.io/JavaScript30/06%20-%20Type%20Ahead/)
 - [x] Day 7 - Array Cardio Day 2
-- [ ] Day 8 - Fun with HTML5 Canvas
+- [x] Day 8 - Fun with HTML5 Canvas - [Live Demo](https://angelaread.github.io/JavaScript30/08%20-%20Fun%20with%20HTML5%20Canvas/)
 - [ ] Day 9 - Dev Tools Domination
 - [ ] Day 10 - Hold Shift and Check Checkboxes
 - [ ] Day 11 - Custom Video Player
