@@ -14,7 +14,7 @@ My solutions to [Wes Bos's JavaScript 30 Day Challenge](https://JavaScript30.com
 - [x] Day 6 - Type Ahead - [Live Demo](https://angelaread.github.io/JavaScript30/06%20-%20Type%20Ahead/)
 - [x] Day 7 - Array Cardio Day 2
 - [x] Day 8 - Fun with HTML5 Canvas - [Live Demo](https://angelaread.github.io/JavaScript30/08%20-%20Fun%20with%20HTML5%20Canvas/)
-- [ ] Day 9 - Dev Tools Domination
+- [x] Day 9 - Dev Tools Domination
 - [ ] Day 10 - Hold Shift and Check Checkboxes
 - [ ] Day 11 - Custom Video Player
 - [ ] Day 12 - Key Sequence Detection
