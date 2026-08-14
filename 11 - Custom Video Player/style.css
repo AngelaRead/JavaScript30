@@ -10,9 +10,9 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  background: #7A419B;
+  background: #34528a;
   min-height: 100vh;
-  background: linear-gradient(135deg, #7c1599 0%,#921099 48%,#7e4ae8 100%);
+  background: linear-gradient(135deg, #34528a 0%,#577dc4 48%,#9bd0f0 100%);
   background-size: cover;
   align-items: center;
   justify-content: center;
@@ -25,6 +25,13 @@ body {
   position: relative;
   font-size: 0;
   overflow: hidden;
+}
+
+.text{
+  color: white;
+  font-size: 12px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: auto;
 }
 
 /* This css is only applied when fullscreen is active. */
@@ -55,7 +62,7 @@ body {
 }
 
 .player__button:focus {
-  border-color: #ffc600;
+  border-color: #6200ff;
 }
 
 .player__slider {
@@ -98,10 +105,10 @@ body {
 }
 
 .progress__filled {
-  width: 50%;
-  background: #ffc600;
+  width: 0%;
+  background: #6200ff;
   flex: 0;
-  flex-basis: 50%;
+  flex-basis: 0%;
 }
 
 /* unholy css to style input type="range" */
@@ -131,7 +138,7 @@ input[type=range]::-webkit-slider-thumb {
   height: 15px;
   width: 15px;
   border-radius: 50px;
-  background: #ffc600;
+  background: #6200ff;
   cursor: pointer;
   -webkit-appearance: none;
   margin-top: -3.5px;
@@ -139,7 +146,7 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 input[type=range]:focus::-webkit-slider-runnable-track {
-  background: #bada55;
+  background: #4ce3f1;
 }
 
 input[type=range]::-moz-range-track {
@@ -157,6 +164,6 @@ input[type=range]::-moz-range-thumb {
   height: 15px;
   width: 15px;
   border-radius: 50px;
-  background: #ffc600;
+  background: #6200ff;
   cursor: pointer;
 }
