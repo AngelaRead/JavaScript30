@@ -15,7 +15,7 @@ My solutions to [Wes Bos's JavaScript 30 Day Challenge](https://JavaScript30.com
 - [x] Day 7 - Array Cardio Day 2
 - [x] Day 8 - Fun with HTML5 Canvas - [Live Demo](https://angelaread.github.io/JavaScript30/08%20-%20Fun%20with%20HTML5%20Canvas/)
 - [x] Day 9 - Dev Tools Domination
-- [ ] Day 10 - Hold Shift and Check Checkboxes
+- [x] Day 10 - Hold Shift and Check Checkboxes - [Live Demo](https://angelaread.github.io/JavaScript30/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes/)
 - [ ] Day 11 - Custom Video Player
 - [ ] Day 12 - Key Sequence Detection
 - [ ] Day 13 - Slide in on Scroll
