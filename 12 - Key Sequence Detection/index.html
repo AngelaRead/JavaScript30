@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Key Detection</title>
+    <script type="text/javascript" src="./cornify.js"></script>
+    <link rel="icon" href="https://fav.farm/🔥" />
+  </head>
+  <body>
+    <h1> Open the <strong>console</strong> and type "angelaread" more than once! </h1>
+    <script>
+      const pressed = [];
+      const secretCode = 'angelaread';
+
+      window.addEventListener('keyup', (e) =>{
+        console.log(e.key);
+        pressed.push(e.key);
+        pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length);
+        if(pressed.join('').includes(secretCode)){
+          console.log('DING DING!');
+          cornify_add();
+        }
+        console.log(pressed);
+      });
+    </script>
+    <style>
+      h1 {
+        text-align:center;
+        color:rgb(82, 36, 125);
+        margin: 0;
+        padding: 20px;
+        flex: 1;
+        font-family:'helvetica neue';
+        font-size: 30px;
+        font-weight: 300;
+        background-color: white;
+        border: solid 3px #6a3f6a;
+        position: relative;
+        z-index: 999999999;
+      }
+      body{
+        background-color:rgb(209, 185, 230);
+      }
+    </style>
+  </body>
+</html>

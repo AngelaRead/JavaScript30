@@ -176,6 +176,8 @@ var cornify_updatecount = function () {
     p.style.fontSize = "24px";
     p.style.fontFamily = "'Comic Sans MS', 'Comic Sans', 'Marker Felt', serif"; // Only the best!
     p.style.textTransform = "uppercase";
+    p.style.background= "white";
+    p.style.border = "solid 1px #ff00ff";
     var body = document.getElementsByTagName("body")[0];
     body.appendChild(p);
   }
