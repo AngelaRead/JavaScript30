@@ -17,7 +17,7 @@ My solutions to [Wes Bos's JavaScript 30 Day Challenge](https://JavaScript30.com
 - [x] Day 9 - Dev Tools Domination
 - [x] Day 10 - Hold Shift and Check Checkboxes - [Live Demo](https://angelaread.github.io/JavaScript30/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes/)
 - [x] Day 11 - Custom Video Player - [Live Demo](https://angelaread.github.io/JavaScript30/11%20-%20Custom%20Video%20Player/)
-- [ ] Day 12 - Key Sequence Detection
+- [x] Day 12 - Key Sequence Detection - [Live Demo](https://angelaread.github.io/JavaScript30/12%20-%20Key%20Sequence%20Detection/)
 - [ ] Day 13 - Slide in on Scroll
 - [ ] Day 14 - JavaScript References vs Copying
 - [ ] Day 15 - LocalStorage
