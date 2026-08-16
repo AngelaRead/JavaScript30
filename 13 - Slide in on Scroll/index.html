@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
-  <link rel="icon" href="https://fav.farm/✅" />
+  <link rel="icon" href="https://fav.farm/🔥" />
 </head>
 <body>
 
@@ -44,7 +44,7 @@
   </div>
 
   <script>
-    function debounce(func, wait = 20, immediate = true) {
+    function debounce(func, wait = 6, immediate = true) {
       var timeout;
       return function() {
         var context = this, args = arguments;
@@ -57,24 +57,24 @@
         timeout = setTimeout(later, wait);
         if (callNow) func.apply(context, args);
       };
-    };
+    }
 
     const sliderImages = document.querySelectorAll('.slide-in');
 
-    function checkSlide() {
+    function checkSlide(e) {
       sliderImages.forEach(sliderImage => {
         // half way through the image
         const slideInAt = (window.scrollY + window.innerHeight) - sliderImage.height / 2;
         // bottom of the image
         const imageBottom = sliderImage.offsetTop + sliderImage.height;
         const isHalfShown = slideInAt > sliderImage.offsetTop;
-        const isNotScrolledPast = window.scrollY < imageBottom;
-        if (isHalfShown && isNotScrolledPast) {
+        const isNotScrolledPast = window.scrollY < imageBottom; 
+        if(isHalfShown && isNotScrolledPast){
           sliderImage.classList.add('active');
         } else {
           sliderImage.classList.remove('active');
         }
-      });
+      })
     }
 
     window.addEventListener('scroll', debounce(checkSlide));
@@ -84,7 +84,7 @@
   <style>
     html {
       box-sizing: border-box;
-      background: #ffc600;
+      background: #1d3c4a;
       font-family: 'helvetica neue';
       font-size: 20px;
       font-weight: 200;
@@ -100,12 +100,13 @@
 
     h1 {
       margin-top: 0;
+      color:#1d3c4a;
     }
 
     .site-wrap {
       max-width: 700px;
       margin: 100px auto;
-      background: white;
+      background: #ebf8fe;
       padding: 40px;
       text-align: justify;
     }
@@ -126,11 +127,11 @@
     }
 
     .align-left.slide-in {
-      transform: translateX(-30%) scale(0.95);
+      transform: translateX(-30%) scale(0.55);
     }
 
     .align-right.slide-in {
-      transform: translateX(30%) scale(0.95);
+      transform: translateX(30%) scale(0.55);
     }
 
     .slide-in.active {
