@@ -19,7 +19,7 @@ My solutions to [Wes Bos's JavaScript 30 Day Challenge](https://JavaScript30.com
 - [x] Day 11 - Custom Video Player - [Live Demo](https://angelaread.github.io/JavaScript30/11%20-%20Custom%20Video%20Player/)
 - [x] Day 12 - Key Sequence Detection - [Live Demo](https://angelaread.github.io/JavaScript30/12%20-%20Key%20Sequence%20Detection/)
 - [x] Day 13 - Slide in on Scroll - [Live Demo](https://angelaread.github.io/JavaScript30/13%20-%20Slide%20in%20on%20Scroll/)
-- [ ] Day 14 - JavaScript References vs Copying
+- [x] Day 14 - JavaScript References VS Copying
 - [ ] Day 15 - LocalStorage
 - [ ] Day 16 - Mouse Move Shadow
 - [ ] Day 17 - Sort Without Articles
