@@ -21,7 +21,7 @@ My solutions to [Wes Bos's JavaScript 30 Day Challenge](https://JavaScript30.com
 - [x] Day 13 - Slide in on Scroll - [Live Demo](https://angelaread.github.io/JavaScript30/13%20-%20Slide%20in%20on%20Scroll/)
 - [x] Day 14 - JavaScript References VS Copying
 - [x] Day 15 - LocalStorage - [Live Demo](https://angelaread.github.io/JavaScript30/15%20-%20LocalStorage/)
-- [ ] Day 16 - Mouse Move Shadow
+- [x] Day 16 - Mouse Move Shadow - [Live Demo](https://angelaread.github.io/JavaScript30/16%20-%20Mouse%20Move%20Shadow/)
 - [ ] Day 17 - Sort Without Articles
 - [ ] Day 18 - Adding Up Times with Reduce
 - [ ] Day 19 - Webcam Fun
