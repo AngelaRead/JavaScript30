@@ -22,7 +22,7 @@ My solutions to [Wes Bos's JavaScript 30 Day Challenge](https://JavaScript30.com
 - [x] Day 14 - JavaScript References VS Copying
 - [x] Day 15 - LocalStorage - [Live Demo](https://angelaread.github.io/JavaScript30/15%20-%20LocalStorage/)
 - [x] Day 16 - Mouse Move Shadow - [Live Demo](https://angelaread.github.io/JavaScript30/16%20-%20Mouse%20Move%20Shadow/)
-- [ ] Day 17 - Sort Without Articles
+- [x] Day 17 - Sort Without Articles - [Live Demo](https://angelaread.github.io/JavaScript30/17%20-%20Sort%20Without%20Articles/)
 - [ ] Day 18 - Adding Up Times with Reduce
 - [ ] Day 19 - Webcam Fun
 - [ ] Day 20 - Speech Detection
