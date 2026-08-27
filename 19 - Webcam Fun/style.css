@@ -8,11 +8,12 @@ html {
 
 html {
   font-size: 10px;
-  background: #ffc600;
+  background: #222020;
 }
 
 .photobooth {
-  background: white;
+  padding: 20px;
+  background: #222020;
   max-width: 150rem;
   margin: 2rem auto;
   border-radius: 2px;
@@ -26,8 +27,11 @@ html {
 }
 
 .photo {
-  width: 100%;
+  margin-top: 10px;
+  width: 60%;
   float: left;
+  padding: 20px;
+  background: #222020;
 }
 
 .player {
@@ -37,12 +41,30 @@ html {
   width:200px;
 }
 
+label{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  color:#adc9da;
+  font-weight: bold;
+}
+
+button{
+  padding: 10px;
+  margin:10px;
+}
+
+button:hover{
+  color:#adc9da;
+  background-color:#283044
+}
+
 /*
   Strip!
 */
 
 .strip {
-  padding: 2rem;
+  padding: 6rem;
 }
 
 .strip img {
