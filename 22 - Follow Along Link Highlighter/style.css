@@ -11,10 +11,10 @@ body {
   margin: 0; /* Important! */
   font-family: sans-serif;
   background:
-    linear-gradient(45deg, hsla(340, 100%, 55%, 1) 0%, hsla(340, 100%, 55%, 0) 70%),
-    linear-gradient(135deg, hsla(225, 95%, 50%, 1) 10%, hsla(225, 95%, 50%, 0) 80%),
-    linear-gradient(225deg, hsla(140, 90%, 50%, 1) 10%, hsla(140, 90%, 50%, 0) 80%),
-    linear-gradient(315deg, hsla(35, 95%, 55%, 1) 100%, hsla(35, 95%, 55%, 0) 70%);
+    linear-gradient(45deg, rgb(26, 194, 255) 0%, hsla(340, 100%, 55%, 0) 70%),
+    linear-gradient(135deg, rgb(106, 131, 161) 10%, hsla(225, 95%, 50%, 0) 80%),
+    linear-gradient(225deg, rgb(61, 154, 182) 10%, hsla(140, 90%, 50%, 0) 80%),
+    linear-gradient(315deg, rgb(77, 106, 156) 100%, hsla(35, 95%, 55%, 0) 70%);
 }
 
 .wrapper {
@@ -34,10 +34,10 @@ a {
 
 .highlight {
   transition: all 0.2s;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid rgb(27, 40, 65);
   position: absolute;
   top: 0;
-  background: white;
+  background: rgb(193, 244, 255);
   left: 0;
   z-index: -1;
   border-radius: 20px;
