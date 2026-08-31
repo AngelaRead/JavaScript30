@@ -27,7 +27,7 @@ My solutions to [Wes Bos's JavaScript 30 Day Challenge](https://JavaScript30.com
 - [x] Day 19 - Webcam Fun - [Live Demo](https://angelaread.github.io/JavaScript30/19%20-%20Webcam%20Fun/) *(requires camera access)*
 - [ ] Day 20 - Speech Detection *(skipped - microphone input issue with remote app, will revisit)*
 - [x] Day 21 - Geolocation - [Live Demo](https://angelaread.github.io/JavaScript30/21%20-%20Geolocation/) *(best experienced on mobile while moving)*
-- [ ] Day 22 - Follow Along Link Highlighter
+- [x] Day 22 - Follow Along Link Highlighter - [Live Demo](https://angelaread.github.io/JavaScript30/22%20-%20Follow%20Along%20Link%20Highlighter/)
 - [ ] Day 23 - Speech Synthesis
 - [ ] Day 24 - Sticky Nav
 - [ ] Day 25 - Event Capture, Propagation, Bubbling
