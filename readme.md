@@ -25,7 +25,7 @@ My solutions to [Wes Bos's JavaScript 30 Day Challenge](https://JavaScript30.com
 - [x] Day 17 - Sort Without Articles - [Live Demo](https://angelaread.github.io/JavaScript30/17%20-%20Sort%20Without%20Articles/)
 - [x] Day 18 - Adding Up Times with Reduce
 - [x] Day 19 - Webcam Fun - [Live Demo](https://angelaread.github.io/JavaScript30/19%20-%20Webcam%20Fun/) *(requires camera access)*
-- [ ] Day 20 - Speech Detection
+- [ ] Day 20 - Speech Detection *(skipped - microphone input issue with remote app, will revisit)*
 - [ ] Day 21 - Geolocation
 - [ ] Day 22 - Follow Along Link Highlighter
 - [ ] Day 23 - Speech Synthesis
